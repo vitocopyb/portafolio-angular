@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Servicios
 import { InfoPaginaService } from './services/info-pagina.service';
+import { ProductosService } from './services/productos.service';
 
 // Componentes
 import { AppComponent } from './app.component';
@@ -31,7 +32,8 @@ import { ItemComponent } from './pages/item/item.component';
         HttpClientModule
     ],
     providers: [
-        InfoPaginaService
+        InfoPaginaService,
+        ProductosService
     ],
     bootstrap: [
         AppComponent
